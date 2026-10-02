@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 2px solid blue; */
+}
+
+.sell-on-jumia {
+  display: flex;
+  gap: 350px;
+}
+
+.Opay-Delivery {
+  display: flex;
+  gap: 40px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.Opay-Delivery img {
+  width: 70px;
+  height: 10px;
+}
+
+.Grooming-Men {
+  background-color: white;
+  margin: 7px 10px 7px 10px;
+  border-radius: 10px;
+
+}
+
+.grooming-all {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.grooming-all a {
+  text-decoration: none;
+  color: #f68b1e;
+}
+
+.Cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.top-card {
+  width: 190px;
+  background: white;
+  padding: 10px;
+  display: block;
+  border-radius: 5px;
+
+}
+
+.image-wrap {
+  position: relative;
+  width: 100%;
+}
+
+.image-wrap img {
+  width: 100%;
+  display: block;
+}
+
+.off {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background-color: #eeddcc;
+  padding: 4px 6px;
+  border-radius: 3px;
+}
+
+.off p {
+  position: static;
+  bottom: auto;
+  left: auto;
+  margin: 0;
+  color: #f68b1e;
+  z-index: 2;
+}
+
+.long-daily {
+  display: flex;
+  gap: 10px;
+  margin: 17px 10px 7px 10px;
+  padding: 10px 0px 10px 10px;
+  border-radius: 10px;
+  background: white;
+}
+
+.small-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  margin: 17px 10px 7px 10px;
+  padding: 10px 0px 10px 10px;
+  border-radius: 10px;
+  background: white;
+}
+
+.small-card img {
+  max-width: 100%;
+  border-radius: 5px;
+ 
+}
+
+.video-card {
+  margin: 17px 10px 7px 10px;
+  padding: 10px 0px 10px 10px;
+  border-radius: 10px;
+  background: white;
+}
+
+.video-card img {
+  max-width: 100%;
+}
+
+.scroll-cards {
+  background: white;
+  border-radius: 10px;
+  margin: 17px 10px 7px 10px;
+  padding: 10px 0px 10px 10px;
+}
+
+.scroll {
+  display: flex;
+  gap: 20px;
+  overflow-x: scroll;
+}
+
+.scroll img {
+  max-width: 15%;
+}
